@@ -34,33 +34,33 @@ V1.0
 
 
 
-# Player
 
-## Overview
 
-Description of what is included.
 
-## Assumptions
 
-- Singleplayer
-- Survival mode
-- etc.
 
-## Inventory
 
-Calculations...
 
-## Health
 
-Calculations...
 
-## Hunger
 
-Calculations...
 
-## Advancements
 
-Calculations...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Current Estimate
 
