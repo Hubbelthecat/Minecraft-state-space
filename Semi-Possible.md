@@ -6,7 +6,7 @@ The Semi-Possible State Space includes states that can reasonably exist within t
 
 ## Categories
 
-- [Player](1_Player.md)
-- [World]([1_World.md)
-- [Entities](1_Entities.md)
-- [System](1_System.md)
+- [Player]((SP)_Player.md)
+- [World]([(SP)_World.md)
+- [Entities]((SP)_Entities.md)
+- [System]((SP)_System.md)
