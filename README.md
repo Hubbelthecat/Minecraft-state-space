@@ -11,8 +11,6 @@ If you use this work in a video, article, or other public project, please acknow
 Related videos will be published on my channel: https://www.youtube.com/@Hubbelthecat
 Please add ideas, corrections, calculations and requested information in the comment section of the related video and/or in the last State-Space related video I posted.
 
-
-
 ## Main Sections
 
 - Semi-Possible State Space
@@ -22,12 +20,18 @@ Please add ideas, corrections, calculations and requested information in the com
 
 | Section | Status |
 |----------|----------|
-| Inventory | In Progress |
+| Player | In Progress |
 | World | In Progress |
 | Entities | Planned |
 | System | Planned |
+| Version | Planned |
+|   ???  |  ???  |
 
 ## Documentation
 
 See the docs folder for current results.
+V1.0
 
+
+
+# Player
