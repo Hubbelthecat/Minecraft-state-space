@@ -47,31 +47,18 @@ Please add ideas, corrections, calculations and requested information in the com
 - YouTube video episode 1
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Current Estimate
 
-...
+- Approximate final state space:
+Ω_total ≈ 2^437,184
+
+- Scientific notation:
+Ω_total ≈ 10^131,593
+
+- Entropy:
+H ≈ 437,184 bits
+
+- Storage:
+437,184 ÷ 8
+≈ 54,648 bytes
+≈ 54.6 KB
