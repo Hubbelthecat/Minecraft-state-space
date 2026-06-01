@@ -3,8 +3,8 @@ This is a research project calculating the state space of Minecraft, using the b
 If you see anything in my files here or in one of my YouTube videos please let me know using the comment section of the relatde video or the Latest video I posted about this subject.
 For more info see the "YouTube" part of this file.
 
-[State Space vs. Entropy, the definition](State-Space_vs._Entropy_the_definition.md)
-[List of most helpful contributors in this project](List_Contributors.md)
+- [State Space vs. Entropy, the definition](State-Space_vs._Entropy_the_definition.md)
+- [List of most helpful contributors in this project](List_Contributors.md)
 
 ---
 
