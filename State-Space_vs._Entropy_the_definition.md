@@ -40,6 +40,7 @@ where:
 H = entropy in bits
 Ω = number of possible states
 
+
 Entropy answers the question:
 
 "How much information is required to uniquely identify a state?"
@@ -74,7 +75,7 @@ Example:
 
 H = 16.29 bits
 
-bits_needed = 17 bits
+bits_needed = ceil(H) = 17 bits
 
 This is the minimum binary storage required to uniquely encode every state.
 
