@@ -17,8 +17,14 @@ Please add ideas, corrections, calculations and requested information in the com
 ## Main Sections
 
 - Latest estimated State Space of Minecraft:
-- [1State-Space_Latest](State-Space_Latest)
-- 
+- [State-Space_Latest](State-Space_Latest)
+
+- Sub-categories:
+- [Player](Player)
+- [World](World)
+- [System](System)
+- [Entities](Entities)
+- [Version](Version)
 
 
 ## Progress
@@ -27,8 +33,8 @@ Please add ideas, corrections, calculations and requested information in the com
 |----------|----------|
 | Player | In Progress |
 | World | In Progress |
-| Entities | Planned |
 | System | Planned |
+| Entities | Planned |
 | Version | Planned |
 |   ???  |  ???  |
 
