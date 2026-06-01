@@ -16,9 +16,8 @@ Please add ideas, corrections, calculations and requested information in the com
 
 ## Main Sections
 
-- Semi-Possible State Space
-- [Semi-Possible_State_Space](Semi-Possible.md)
-- Theoretical State Space
+- Latest estimated State Space of Minecraft:
+- [State-Space_Latest](State-Space_Latest)
 
 
 ## Progress
