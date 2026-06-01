@@ -9,4 +9,4 @@ If you wan't to be a part of this project please give Ideas and improvements on 
 
 Now let's not wait until the end of the universe and jump right in!
 
-- [Minecraft State Space](2.Minecraft_State_Space_(Main).md)
+- [Minecraft State Space](1.Minecraft_State_Space_(Main).md)
