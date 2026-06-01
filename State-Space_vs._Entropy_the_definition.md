@@ -6,7 +6,7 @@ The State Space of a system is the set of all possible states the system can occ
 
 In this project, the state space size is written as:
 
-Ω
+Ω (Omega)
 
 where:
 
