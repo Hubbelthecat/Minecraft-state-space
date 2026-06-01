@@ -28,7 +28,7 @@ Along the way, I will probably:
 
 * Suffer through combinatorics
 * Stress my PC beyond reasonable limits
-* learn quantum physics to understand dirt and still not knowing what dirt is doing most of the time
+* learn quantum physics just to understand dirt and still not knowing what dirt is doing most of the time
 
 ---
 
