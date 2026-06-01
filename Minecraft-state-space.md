@@ -1,5 +1,6 @@
 # Minecraft-state-space
 Research project calculating the state space of Minecraft.
+[State Space vs. Entropy, the definition](State-Space_vs._Entropy,_the_definition)
 
 
 ## Usage and Attribution
