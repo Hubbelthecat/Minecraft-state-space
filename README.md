@@ -28,14 +28,12 @@ Please add ideas, corrections, calculations and requested information in the com
 | Version | Planned |
 |   ???  |  ???  |
 
-## Documentation
+! Interactive calculator coming soon !
 
-See the docs folder for current results.
-V1.0
+##Versions
 
-
-
-
+Minecraft Java version 1.21.11
+YouTube video episode 1
 
 
 
