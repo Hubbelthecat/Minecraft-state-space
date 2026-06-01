@@ -27,11 +27,14 @@ Please add ideas, corrections, calculations and requested information in the com
 
 ## Main Sections
 
-- Latest estimated State Space of Minecraft:
+Here are links to the main section of my project, from there you can find the sub-categories.
+
 - [State-Space_Latest](State-Space_Latest.md)
 - [State Space vs. Entropy, the definition](State-Space_vs._Entropy_the_definition.md)
   
 ---
+
+Here you can fast travel to specific sub-categories of the latest estimation for the total State Space Minecraft has:
 
 - Sub-categories:
 - [Player](Player.md)
