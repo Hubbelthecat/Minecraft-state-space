@@ -20,11 +20,9 @@ If you use this work in a video, article, or other public project, please acknow
 Related videos will be published on my channel: https://www.youtube.com/@Hubbelthecat
 Please add ideas, corrections, calculations and requested information in the comment section of the related video or in the last State-Space related video I posted.
 
-I will try to carefully read all useful comments, please make them with a good structure and links to where you got the information from.
-
-I try to be as rigorous as possible in my calculations so please do not share false information about the game or related calculations.
-
-You can help me with answering my polls or by sharing ideas in the comment section.
+- I will try to carefully read all useful comments, please make them with a good structure and links to where you got the information from.
+- I try to be as rigorous as possible in my calculations so please do not share false information about the game or related calculations.
+- You can help me with answering my polls or by sharing ideas in the comment section.
 
 ---
 
