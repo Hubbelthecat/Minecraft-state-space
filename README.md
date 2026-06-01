@@ -46,4 +46,4 @@ If you want to follow along, contribute ideas, or suggest improvements, you can 
 
 Let’s not wait until the heat death of the universe — and jump right in:
 
-* [Minecraft State Space](1.Minecraft_State_Space_(Main).md)
+* [Minecraft State Space](0.Minecraft_State_Space_(Main).md)
