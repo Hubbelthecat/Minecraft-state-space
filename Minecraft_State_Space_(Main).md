@@ -3,9 +3,6 @@ This is a research project calculating the state space of Minecraft, using the b
 If you see anything in my files here or in one of my YouTube videos please let me know using the comment section of the relatde video or the Latest video I posted about this subject.
 For more info see the "YouTube" part of this file.
 
-- [State Space vs. Entropy, the definition](State-Space_vs._Entropy_the_definition.md)
-- [List of most helpful contributors in this project](List_Contributors.md)
-
 ---
 
 ## Usage and Attribution
@@ -24,12 +21,15 @@ Please add ideas, corrections, calculations and requested information in the com
 - I try to be as rigorous as possible in my calculations so please do not share false information about the game or related calculations.
 - You can help me with answering my polls or by sharing ideas in the comment section.
 
+- [List of most helpful contributors in this project](List_Contributors.md)
+
 ---
 
 ## Main Sections
 
 - Latest estimated State Space of Minecraft:
 - [State-Space_Latest](State-Space_Latest.md)
+- [State Space vs. Entropy, the definition](State-Space_vs._Entropy_the_definition.md)
   
 ---
 
