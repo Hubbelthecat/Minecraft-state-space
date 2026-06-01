@@ -3,7 +3,7 @@
 here you can find the highest tier calculation for estimaing the State Space of Minecraft, with definitions on all variabls and a short explenation of why this works.
 if you find anything wrong please look at the YouTube section of the main file "Minecraft_State_Space".
 
-[Minecraft State Space](Minecraft_State_Space.md)
+[Minecraft State Space](Minecraft_State_Space_(Main).md)
 
 This section contains calculations and conclusions for the Semi-Possible State Space of Minecraft.
 
