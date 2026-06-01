@@ -6,6 +6,12 @@ It describes how individual item slots, multi-slot systems, and recursive contai
 
 ---
 
+## Wrong page? Klick here to go back:
+
+* [Go back to Player](2.Player.md)
+
+---
+
 # 1. Inventory State Definition
 
 An inventory state is defined as any configuration that can be distinguished by:
