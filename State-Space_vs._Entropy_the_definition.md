@@ -1,5 +1,12 @@
 # State Space vs Entropy
 
+Below you will find the explenation what I refer to when saying "State Space", "Entropy" and "Storage Requirement".
+
+If you want to go back to the main file click the link below:
+
+
+---
+
 ## State Space
 
 The State Space of a system is the set of all possible states the system can occupy.
