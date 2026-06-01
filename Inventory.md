@@ -8,7 +8,7 @@ It describes how individual item slots, multi-slot systems, and recursive contai
 
 ## Wrong page? Klick here to go back:
 
-* [Go back to Player](2.Player.md)
+* [Go back to Player State Space](2.Player.md)
 
 ---
 
