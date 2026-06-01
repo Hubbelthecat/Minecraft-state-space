@@ -18,7 +18,7 @@ Please add ideas, corrections, calculations and requested information in the com
 
 - Latest estimated State Space of Minecraft:
 - [State-Space_Latest](State-Space_Latest)
-
+--------------------------------------------
 - Sub-categories:
 - [Player](Player)
 - [World](World)
