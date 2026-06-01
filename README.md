@@ -17,7 +17,8 @@ Please add ideas, corrections, calculations and requested information in the com
 ## Main Sections
 
 - Latest estimated State Space of Minecraft:
-- [State-Space_Latest](State-Space_Latest)
+- [1State-Space_Latest](State-Space_Latest)
+- 
 
 
 ## Progress
@@ -36,8 +37,8 @@ Please add ideas, corrections, calculations and requested information in the com
 
 ## Versions
 
-Minecraft Java version 1.21.11
-YouTube video episode 1
+- Minecraft Java version 1.21.11
+- YouTube video episode 1
 
 
 
