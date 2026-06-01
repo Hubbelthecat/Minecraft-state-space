@@ -12,7 +12,7 @@ If you use this work in a video, article, or other public project, please acknow
 
 ---
 
-## YouTube
+## YouTube & Contributors
 
 Related videos will be published on my channel: https://www.youtube.com/@Hubbelthecat
 Please add ideas, corrections, calculations and requested information in the comment section of the related video or in the last State-Space related video I posted.
