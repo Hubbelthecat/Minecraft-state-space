@@ -772,7 +772,7 @@ of the largest term.
 In percentage form:
 
 $$
-\boxed{1.89\times10^{-3373}\%}
+\boxed{\displaystyle 1.89\times10^{-3373}\%}
 $$
 
 The exact finite geometric sum can also be written as:
