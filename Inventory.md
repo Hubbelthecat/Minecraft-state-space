@@ -769,10 +769,10 @@ $$
 
 of the largest term.
 
-In percentage form:
+In percentage form
 
 $$
-\boxed{\displaystyle 1.89\times10^{-3373}\%}
+\boxed{1.89 \times 10^{-3373}\%}
 $$
 
 The exact finite geometric sum can also be written as:
@@ -780,6 +780,7 @@ The exact finite geometric sum can also be written as:
 $$
 \Omega_{\text{inventory}}=\Omega_{\max}\frac{1-r^{47}}{1-r}
 $$
+
 
 where:
 
