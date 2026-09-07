@@ -769,12 +769,6 @@ $$
 
 of the largest term.
 
-In percentage form
-
-$$
-\boxed{1.89 \times 10^{-3373}\%}
-$$
-
 The exact finite geometric sum can also be written as:
 
 $$
@@ -863,8 +857,25 @@ $$
 The corrected inventory state space for the model is therefore:
 
 $$
-\boxed{\begin{aligned}\Omega_{\text{inventory}}&\approx10^{161207.946}\\H_{\text{inventory}}&\approx535521.205\text{ bits}\\\text{bits}_{\text{needed}}&=535522\text{ bits}\\S_{\text{inventory}}&=66941\text{ bytes}\\&\approx65.37\text{ KiB}\end{aligned}}
+\boxed{\Omega_{\text{inventory}} \approx 10^{161207.946}}
 $$
+
+$$
+\boxed{H_{\text{inventory}} \approx 535521.205\text{ bits}}
+$$
+
+$$
+\boxed{\text{bits}_{\text{needed}} = 535522\text{ bits}}
+$$
+
+$$
+\boxed{S_{\text{inventory}} = 66941\text{ bytes}}
+$$
+
+$$
+\boxed{S_{\text{inventory}} \approx 65.37\text{ KiB}}
+$$
+
 
 ---
 
@@ -923,3 +934,5 @@ $$
 $$
 
 This is the current inventory result used by the Minecraft State-Space project.
+
+* [Go back to Player State Space](3.Player.md)
