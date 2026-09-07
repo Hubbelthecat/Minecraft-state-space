@@ -161,11 +161,7 @@ $$
 The corresponding information content is:
 
 $$
-\boxed{
-H_{\text{total}}
-=
-n\log_2(\Omega_{\text{slot}})
-}
+\boxed{H_{\text{total}}=n\log_2(\Omega_{\text{slot}})}
 $$
 
 ---
@@ -175,22 +171,17 @@ $$
 For two independent slots:
 
 $$
-\Omega_{\text{total}}
-=
-79\,874^2
+\Omega_{\text{total}}=79\,874^2
 $$
 
 $$
-\Omega_{\text{total}}
-=
-6\,379\,859\,876
+\Omega_{\text{total}}=6\,379\,859\,876
 $$
 
 and:
 
 $$
-H_{\text{total}}
-\approx32.57\text{ bits}
+H_{\text{total}}\approx32.57\text{ bits}
 $$
 
 Thus:
@@ -206,16 +197,13 @@ $$
 For five independent slots:
 
 $$
-\Omega_{\text{total}}
-=
-79\,874^5
+\Omega_{\text{total}}=79\,874^5
 $$
 
 with:
 
 $$
-H_{\text{total}}
-\approx81.43\text{ bits}
+H_{\text{total}}\approx81.43\text{ bits}
 $$
 
 Therefore:
@@ -283,10 +271,7 @@ $$
 The initial non-recursive generating function is therefore:
 
 $$
-G_0(t)=
-(1+t+\cdots+t^{64})^{1238}
-(1+t^4+t^8+\cdots+t^{64})^{26}
-(1+t^{64})^{225}
+G_0(t)=(1+t+\cdots+t^{64})^{1238}(1+t^4+t^8+\cdots+t^{64})^{26}(1+t^{64})^{225}
 $$
 
 The coefficient of $t^n$ counts configurations using exactly $n$ capacity units.
@@ -294,23 +279,19 @@ The coefficient of $t^n$ counts configurations using exactly $n$ capacity units.
 Thus:
 
 $$
-\Omega_0
-=
-\sum_{n=0}^{64}[t^n]G_0(t)
+\Omega_0=\sum_{n=0}^{64}[t^n]G_0(t)
 $$
 
 The calculated result was approximately:
 
 $$
-\log_{10}(\Omega_0)
-\approx109.548083539009
+\log_{10}(\Omega_0)\approx109.548083539009
 $$
 
 or:
 
 $$
-H_0
-\approx363.910856\text{ bits}
+H_0\approx363.910856\text{ bits}
 $$
 
 This model, however, does not yet account correctly for recursive bundles.
@@ -326,17 +307,13 @@ An earlier model treated every recursive bundle state as though it were an ordin
 This led to the approximation:
 
 $$
-\Omega_d
-\approx
-\frac{\Omega_{d-1}^{64}}{64!}
+\Omega_d\approx\frac{\Omega_{d-1}^{64}}{64!}
 $$
 
 and ultimately produced the obsolete estimate:
 
 $$
-\Omega_{64}
-\approx
-2^{1.37\times10^{118}}
+\Omega_{64}\approx2^{1.37\times10^{118}}
 $$
 
 This was incorrect.
@@ -366,13 +343,7 @@ capacity units.
 Consequently, the maximum nesting depth is:
 
 $$
-\boxed{
-d_{\max}
-=
-\left\lfloor\frac{64}{4}\right\rfloor
-=
-16
-}
+\boxed{d_{\max}=\left\lfloor\frac{64}{4}\right\rfloor=16}
 $$
 
 The maximum bundle nesting depth is therefore **16**, not 64.
@@ -410,11 +381,7 @@ as the number of bundle-content states with maximum nesting depth at most $d$ th
 The total number of bundle-content states at depth $d$ is:
 
 $$
-\boxed{
-C_d
-=
-\sum_{k=0}^{64}C_{d,k}
-}
+\boxed{C_d=\sum_{k=0}^{64}C_{d,k}}
 $$
 
 This capacity distribution is required because a nested bundle containing $k$ units of content costs $k+4$ units in its parent.
@@ -452,12 +419,7 @@ $$
 Combining the two groups with a capacity cost of 4 gives:
 
 $$
-\boxed{
-G_0(t)=
-(1+t+\cdots+t^{64})^{1238}
-(1+t^4+t^8+\cdots+t^{64})^{43}
-(1+t^{64})^{208}
-}
+\boxed{G_0(t)=(1+t+\cdots+t^{64})^{1238}(1+t^4+t^8+\cdots+t^{64})^{43}(1+t^{64})^{208}}
 $$
 
 Therefore:
@@ -469,8 +431,7 @@ $$
 and:
 
 $$
-C_0=
-\sum_{k=0}^{64}C_{0,k}
+C_0=\sum_{k=0}^{64}C_{0,k}
 $$
 
 ---
@@ -530,9 +491,7 @@ can contribute, because every nested bundle requires at least 4 additional capac
 The recursion therefore evolves the complete vector:
 
 $$
-\boxed{
-(C_{d,0},C_{d,1},\ldots,C_{d,64})
-}
+\boxed{(C_{d,0},C_{d,1},\ldots,C_{d,64})}
 $$
 
 rather than a single scalar state count.
@@ -546,38 +505,31 @@ The corrected calculation was performed in logarithmic space because the state c
 The calculated total state spaces were:
 
 $$
-\log_{10}(C_0)
-\approx109.5481228956097
+\log_{10}(C_0)\approx109.5481228956097
 $$
 
 $$
-\log_{10}(C_1)
-\approx127.6379710569422
+\log_{10}(C_1)\approx127.6379710569422
 $$
 
 $$
-\log_{10}(C_2)
-\approx128.4111439133446
+\log_{10}(C_2)\approx128.4111439133446
 $$
 
 $$
-\log_{10}(C_3)
-\approx128.5656468629944
+\log_{10}(C_3)\approx128.5656468629944
 $$
 
 $$
-\log_{10}(C_4)
-\approx128.5666089521589
+\log_{10}(C_4)\approx128.5666089521589
 $$
 
 $$
-\log_{10}(C_5)
-\approx128.5666091017208
+\log_{10}(C_5)\approx128.5666091017208
 $$
 
 $$
-\log_{10}(C_6)
-\approx128.5666091017222
+\log_{10}(C_6)\approx128.5666091017222
 $$
 
 The increase rapidly becomes extremely small.
@@ -601,19 +553,13 @@ This does **not** mean that the mathematical changes are exactly zero. It means 
 The corrected result therefore converges to:
 
 $$
-\boxed{
-\log_{10}(C_{16})
-\approx128.5666091017222
-}
+\boxed{\log_{10}(C_{16})\approx128.5666091017222}
 $$
 
 and:
 
 $$
-\boxed{
-\log_2(C_{16})
-\approx427.0890308394121\text{ bits}
-}
+\boxed{\log_2(C_{16})\approx427.0890308394121\text{ bits}}
 $$
 
 Here, $C_{16}$ represents the state space of the **contents** of a bundle, including all valid recursive configurations up to the maximum nesting depth of 16.
@@ -629,29 +575,19 @@ The bundle item itself has 17 distinguishable colour variants.
 Therefore:
 
 $$
-\boxed{
-\Omega_{\text{bundle}}
-=
-17C_{16}
-}
+\boxed{\Omega_{\text{bundle}}=17C_{16}}
 $$
 
 Numerically:
 
 $$
-\boxed{
-\log_{10}(\Omega_{\text{bundle}})
-\approx129.7970580231005
-}
+\boxed{\log_{10}(\Omega_{\text{bundle}})\approx129.7970580231005}
 $$
 
 and:
 
 $$
-\boxed{
-H_{\text{bundle}}
-\approx431.1764936806624\text{ bits}
-}
+\boxed{H_{\text{bundle}}\approx431.1764936806624\text{ bits}}
 $$
 
 The minimum exact binary representation is therefore:
@@ -690,21 +626,13 @@ Those 17 states must therefore be removed before inserting the complete recursiv
 Thus:
 
 $$
-\boxed{
-\Omega_{\text{slot}}
-=
-79\,874-17+17C_{16}
-}
+\boxed{\Omega_{\text{slot}}=79\,874-17+17C_{16}}
 $$
 
 or equivalently:
 
 $$
-\boxed{
-\Omega_{\text{slot}}
-=
-79\,874+17(C_{16}-1)
-}
+\boxed{\Omega_{\text{slot}}=79\,874+17(C_{16}-1)}
 $$
 
 The subtraction prevents the original 17 bundle states from being counted twice.
@@ -712,26 +640,19 @@ The subtraction prevents the original 17 bundle states from being counted twice.
 Since the recursive bundle contribution dominates the ordinary item states:
 
 $$
-\Omega_{\text{slot}}
-\approx17C_{16}
+\Omega_{\text{slot}}\approx17C_{16}
 $$
 
 giving:
 
 $$
-\boxed{
-\log_{10}(\Omega_{\text{slot}})
-\approx129.7970580231005
-}
+\boxed{\log_{10}(\Omega_{\text{slot}})\approx129.7970580231005}
 $$
 
 and:
 
 $$
-\boxed{
-\log_2(\Omega_{\text{slot}})
-\approx431.1764936806624\text{ bits}
-}
+\boxed{\log_2(\Omega_{\text{slot}})\approx431.1764936806624\text{ bits}}
 $$
 
 ---
@@ -767,9 +688,7 @@ effective slots.
 If $k$ top-level shulker boxes are present:
 
 $$
-\boxed{
-S(k)=46+26k
-}
+\boxed{S(k)=46+26k}
 $$
 
 with:
@@ -781,11 +700,7 @@ $$
 The maximum number of top-level shulker boxes is therefore 46, giving:
 
 $$
-S_{\max}
-=
-46+26(46)
-=
-\boxed{1242}
+S_{\max}=46+26(46)=\boxed{1242}
 $$
 
 effective slots.
@@ -797,30 +712,19 @@ effective slots.
 For a fixed topology containing $k$ top-level shulker boxes:
 
 $$
-\Omega(k)
-=
-\Omega_{\text{slot}}^{46+26k}
+\Omega(k)=\Omega_{\text{slot}}^{46+26k}
 $$
 
 The complete inventory state space is the sum over all possible top-level shulker-box topologies:
 
 $$
-\boxed{
-\Omega_{\text{inventory}}
-=
-\sum_{k=0}^{46}
-\Omega_{\text{slot}}^{46+26k}
-}
+\boxed{\Omega_{\text{inventory}}=\sum_{k=0}^{46}\Omega_{\text{slot}}^{46+26k}}
 $$
 
 The largest topology is:
 
 $$
-\boxed{
-\Omega_{\max}
-=
-\Omega_{\text{slot}}^{1242}
-}
+\boxed{\Omega_{\max}=\Omega_{\text{slot}}^{1242}}
 $$
 
 ---
@@ -830,42 +734,31 @@ $$
 The terms form a geometric sequence:
 
 $$
-\Omega_{\text{slot}}^{1242},
-\Omega_{\text{slot}}^{1216},
-\Omega_{\text{slot}}^{1190},
-\ldots
+\Omega_{\text{slot}}^{1242},\Omega_{\text{slot}}^{1216},\Omega_{\text{slot}}^{1190},\ldots
 $$
 
 The ratio between consecutive terms is:
 
 $$
-r
-=
-\Omega_{\text{slot}}^{-26}
+r=\Omega_{\text{slot}}^{-26}
 $$
 
 Using:
 
 $$
-\log_{10}(\Omega_{\text{slot}})
-\approx129.7970580231005
+\log_{10}(\Omega_{\text{slot}})\approx129.7970580231005
 $$
 
 gives:
 
 $$
-\log_{10}(r)
-=
--26(129.7970580231005)
-\approx-3374.723508600613
+\log_{10}(r)=-26(129.7970580231005)\approx-3374.723508600613
 $$
 
 Therefore:
 
 $$
-\boxed{
-r\approx1.89\times10^{-3375}
-}
+\boxed{r\approx1.89\times10^{-3375}}
 $$
 
 The entire remainder of the sum beyond the largest term is therefore only approximately:
@@ -879,18 +772,13 @@ of the largest term.
 In percentage form:
 
 $$
-\boxed{
-1.89\times10^{-3373}\%
-}
+\boxed{1.89\times10^{-3373}\%}
 $$
 
 The exact finite geometric sum can also be written as:
 
 $$
-\Omega_{\text{inventory}}
-=
-\Omega_{\max}
-\frac{1-r^{47}}{1-r}
+\Omega_{\text{inventory}}=\Omega_{\max}\frac{1-r^{47}}{1-r}
 $$
 
 where:
@@ -902,11 +790,7 @@ $$
 Because $r$ is so small, the complete inventory state space is indistinguishable from its largest topology at any practical numerical precision:
 
 $$
-\boxed{
-\Omega_{\text{inventory}}
-\approx
-\Omega_{\text{slot}}^{1242}
-}
+\boxed{\Omega_{\text{inventory}}\approx\Omega_{\text{slot}}^{1242}}
 $$
 
 ---
@@ -916,90 +800,59 @@ $$
 Using:
 
 $$
-\log_{10}(\Omega_{\text{slot}})
-\approx129.7970580231005
+\log_{10}(\Omega_{\text{slot}})\approx129.7970580231005
 $$
 
 the largest topology has:
 
 $$
-\log_{10}(\Omega_{\max})
-=
-1242\log_{10}(\Omega_{\text{slot}})
+\log_{10}(\Omega_{\max})=1242\log_{10}(\Omega_{\text{slot}})
 $$
 
 $$
-\boxed{
-\log_{10}(\Omega_{\max})
-\approx161207.9460646908
-}
+\boxed{\log_{10}(\Omega_{\max})\approx161207.9460646908}
 $$
 
 Therefore:
 
 $$
-\boxed{
-\Omega_{\text{inventory}}
-\approx
-10^{161207.9460646908}
-}
+\boxed{\Omega_{\text{inventory}}\approx10^{161207.9460646908}}
 $$
 
 The corresponding information content is:
 
 $$
-H_{\text{inventory}}
-=
-1242\log_2(\Omega_{\text{slot}})
+H_{\text{inventory}}=1242\log_2(\Omega_{\text{slot}})
 $$
 
 giving:
 
 $$
-\boxed{
-H_{\text{inventory}}
-\approx535521.205\text{ bits}
-}
+\boxed{H_{\text{inventory}}\approx535521.205\text{ bits}}
 $$
 
 The minimum exact binary width is:
 
 $$
-\boxed{
-\text{bits}_{\text{needed}}
-=
-535522\text{ bits}
-}
+\boxed{\text{bits}_{\text{needed}}=535522\text{ bits}}
 $$
 
 For whole-byte storage:
 
 $$
-S_{\text{inventory}}
-=
-\left\lceil
-\frac{535521.205}{8}
-\right\rceil
+S_{\text{inventory}}=\left\lceil\frac{535521.205}{8}\right\rceil
 $$
 
 so:
 
 $$
-\boxed{
-S_{\text{inventory}}
-=
-66941\text{ bytes}
-}
+\boxed{S_{\text{inventory}}=66941\text{ bytes}}
 $$
 
 or approximately:
 
 $$
-\boxed{
-66941\text{ bytes}
-\approx66.941\text{ KB}
-\approx65.372\text{ KiB}
-}
+\boxed{66941\text{ bytes}\approx66.941\text{ KB}\approx65.372\text{ KiB}}
 $$
 
 ---
@@ -1009,19 +862,7 @@ $$
 The corrected inventory state space for the model is therefore:
 
 $$
-\boxed{
-\begin{aligned}
-\Omega_{\text{inventory}}
-&\approx10^{161207.946}\\
-H_{\text{inventory}}
-&\approx535521.205\text{ bits}\\
-\text{bits}_{\text{needed}}
-&=535522\text{ bits}\\
-S_{\text{inventory}}
-&=66941\text{ bytes}\\
-&\approx65.37\text{ KiB}
-\end{aligned}
-}
+\boxed{\begin{aligned}\Omega_{\text{inventory}}&\approx10^{161207.946}\\H_{\text{inventory}}&\approx535521.205\text{ bits}\\\text{bits}_{\text{needed}}&=535522\text{ bits}\\S_{\text{inventory}}&=66941\text{ bytes}\\&\approx65.37\text{ KiB}\end{aligned}}
 $$
 
 ---
@@ -1065,29 +906,19 @@ The most important corrections were:
 The corrected calculation instead produces:
 
 $$
-\boxed{
-\Omega_{\text{inventory}}
-\approx10^{161207.946}
-}
+\boxed{\Omega_{\text{inventory}}\approx10^{161207.946}}
 $$
 
 with:
 
 $$
-\boxed{
-H_{\text{inventory}}
-\approx535521.205\text{ bits}
-}
+\boxed{H_{\text{inventory}}\approx535521.205\text{ bits}}
 $$
 
 and:
 
 $$
-\boxed{
-S_{\text{inventory}}
-=
-66941\text{ bytes}
-}
+\boxed{S_{\text{inventory}}=66941\text{ bytes}}
 $$
 
 This is the current inventory result used by the Minecraft State-Space project.
